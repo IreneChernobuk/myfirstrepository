@@ -20,19 +20,22 @@ class Customer {
         information.put("80295445499", "Alex");
         information.put("80335444321", "Sara");
         information.put("80182300400", "Polina");
+        D(information);
+        DD(information);
+        DDD(information);
     }
-    public static void D (Map < String, String > information) {
-        for (Map.Entry<String, String> inform : information.entrySet()) {
+    public static void D (Map < String, String > I) {
+        for (Map.Entry<String, String> inform : I.entrySet()) {
             System.out.printf("Number: %s  Name: %s \n", inform.getKey(), inform.getValue());
         }
     }
-    public static void DD (Map < String, String > information) {
-        Set<String> keys = information.keySet();
+    public static void DD (Map < String, String > number) {
+        Set<String> keys = number.keySet();
         System.out.println(keys);
     }
 
-    public static void DDD (Map < String, String > information){
-        Collection<String> values = information.values();
+    public static void DDD (Map < String, String > name){
+        Collection<String> values = name.values();
         System.out.println(values);
     }
 }
