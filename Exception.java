@@ -20,15 +20,9 @@ public class Exception {
             reader.close();
         }
     }
-    public void bufferedReader3() throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String s = null;
-        try {
-            s = reader.readLine();
-        } finally {
-            if (s == null) {
-                reader.close();
-            }
+     public String bufferedReader3() throws IOException {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))){
+            return reader.readLine();
+        }
         }
     }
-}
