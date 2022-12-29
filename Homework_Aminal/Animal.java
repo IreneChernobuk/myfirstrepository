@@ -8,15 +8,18 @@ public class Animal {
         this.location = location;
         this.food = food;
     }
+
     public String getLocation() {
         return location;
     }
+
     public String getFood() {
         return food;
     }
-    public void makeNoise(){
-    }
-    public void eat(){
 
+    public void makeNoise() {
+    }
+
+    public void eat() {
     }
 }

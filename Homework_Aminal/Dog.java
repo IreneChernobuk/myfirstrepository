@@ -6,7 +6,6 @@ public class Dog extends Animal{
     }
     private String name;
 
-
     @Override
     public String getFood() {
         return super.getFood();
@@ -17,12 +16,10 @@ public class Dog extends Animal{
     }
     @Override
     public void makeNoise() {
-        super.makeNoise();
         System.out.println("Гав! Гав!");
     }
     @Override
     public void eat() {
-        super.eat();
         System.out.println("покорми меня, хозяин");
     }
 }

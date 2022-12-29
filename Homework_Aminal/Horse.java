@@ -17,11 +17,9 @@ public class Horse extends Animal {
     }
     @Override
     public void eat() {
-        super.eat();
     }
     @Override
     public void makeNoise() {
-        super.makeNoise();
         System.out.println("И-го-го");
     }
 }

@@ -16,12 +16,10 @@ public class Cat extends Animal{
 
     @Override
     public void makeNoise() {
-        super.makeNoise();
         System.out.println("Мур- Мяу");
     }
     @Override
     public void eat() {
-        super.eat();
         System.out.println("покорми меня");
     }
 }
